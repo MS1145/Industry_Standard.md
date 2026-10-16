@@ -21,7 +21,7 @@ Before you type that prompt, give your AI one file.
 
 ## Step 1: Download the File (Free)
 
-👉 **[Download `Industry_Standard.md` on GitHub](https://github.com/YOUR_GITHUB_USERNAME/industry-standard)**
+👉 **[Download `Industry_Standard.md` on GitHub](https://github.com/MS1145/Industry_Standard.md)** (and the optional `verify-standard.mjs` checker from the same repo)
 
 **This is a living document.** I host it on GitHub so I can keep improving it based on real feedback from founders and builders who use it. If your AI misreads a rule, a check doesn't fit your stack, or you have an idea to make it better, open an issue on GitHub or [get in touch](https://santoshmanoharadas.dev). Grab the latest version before each new project.
 
@@ -169,7 +169,7 @@ When you build a website, e-commerce store, or admin dashboard, these are the si
 | **5. Multi-Tenant Data Locks (IDOR)** | Checks "Is the user logged in?" but forgets "Does this user own this invoice?" | Scopes every query (`WHERE id = X AND user_id = Y`) and enables Supabase/Firebase Row Level Security (Supabase, 2026). | Prevents a user changing `/order/101` to `/order/102` to see other customers' data (OWASP, 2026a). |
 | **6. Legal, ADA & Payment Shield** | Trusts prices sent from the browser and skips accessibility and privacy basics. | Verifies Stripe webhook signatures on the server, adds GDPR data deletion, and builds to WCAG accessibility standards. | Stops attackers buying a $500 item for $0.01 and reduces exposure to ADA/GDPR complaints. |
 
-Every one of these layers is written into `Industry_Standard.md` as a rule your AI must follow, mapped to the current **OWASP Top 10:2025**, OWASP API Security Top 10, and OWASP ASVS 5.0.
+Every one of these layers is written into `Industry_Standard.md` as a rule your AI must follow, mapped to the **OWASP Top 10** (using the 2021 category IDs), the OWASP API Security Top 10, and OWASP ASVS 5.0. If you run `verify-standard.mjs`, treat it as a quick static scan for common mistakes, not proof of security.
 
 ---
 
@@ -208,7 +208,7 @@ Whether you have a half-finished AI prototype stuck in a debugging loop, an exis
 
 - 🌐 **Explore my work & architecture notes:** [santoshmanoharadas.dev](https://santoshmanoharadas.dev)
 - 📩 **Book a Project Consultation or Pre-Launch Audit:** [Get in touch on santoshmanoharadas.dev](https://santoshmanoharadas.dev)
-- 🛠️ **Help improve the file:** Share feedback or suggest changes on [GitHub](https://github.com/YOUR_GITHUB_USERNAME/industry-standard)
+- 🛠️ **Help improve the file:** Share feedback or suggest changes on [GitHub](https://github.com/MS1145/Industry_Standard.md)
 
 ---
 

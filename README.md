@@ -34,3 +34,5 @@ Drop the file into your project root. Modern coding agents auto-detect root inst
 Run the self-test verification script in your terminal to audit your repository for security leaks, unmetered endpoints, and misconfigured caching:
 ```bash
 node verify-standard.mjs
+```
+This is a best-effort static scan (secrets, security headers, unsafe HTML/SQL patterns). It does not replace human review of access control, rate limiting, and payment webhooks.

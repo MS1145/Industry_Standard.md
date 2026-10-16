@@ -1,0 +1,8 @@
+# Ignore Claude instructions file
+CLAUDE.md
+claude.md
+
+# Secrets
+.env
+.env.*
+!.env.example
