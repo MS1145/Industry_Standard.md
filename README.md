@@ -1,4 +1,5 @@
 # Vibe Coding Your next Big thing without a worry 
+![Architecture Overview](./assets/image.webp)
 
 **Author:** Santosh Manoharadas ([My Portfolio](https://santoshmanoharadas.dev))  
 **Repository:** `https://github.com/MS1145/Industry_Standard.md`
